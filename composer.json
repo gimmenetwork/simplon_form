@@ -1,6 +1,6 @@
 {
-  "name": "simplon/form",
-  "description": "Data validation & flexible form rendering incl. semantic-ui structure.",
+  "name": "gimmenetwork/simplon_form",
+  "description": "[FORK] Data validation & flexible form rendering incl. semantic-ui structure.",
   "homepage": "https://github.com/fightbulc/simplon_form",
   "type": "library",
   "keywords": [
@@ -22,13 +22,28 @@
       "role": "developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_phtml"
+    },    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_helper"
+    },    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_component_form"
+    },    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_component_semanticui"
+    }
+  ],
   "require": {
     "php": ">=7.1",
-    "simplon/phtml": "^0.2",
-    "simplon/helper": "^1.0",
+    "gimmenetwork/simplon_phtml": "^0.2",
+    "gimmenetwork/simplon_helper": "^1.0",
     "fightbulc/moment": "^1.26",
-    "simplon/component_form": "^0.2",
-    "simplon/component_semanticui": "^0.0"
+    "gimmenetwork/simplon_component_form": "^0.2",
+    "gimmenetwork/simplon_component_semanticui": "^0.0"
   },
   "config": {
     "component-dir": "assets/vendor"

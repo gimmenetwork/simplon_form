@@ -52,5 +52,8 @@
     "psr-4": {
       "Simplon\\Form\\": "src/"
     }
+  },
+  "replace": {
+    "simplon/form": "2.5.*"
   }
 }
